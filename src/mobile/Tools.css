@@ -1,0 +1,10 @@
+@media (max-width: 778px) {
+  .tools-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .font-tools-mobile {
+    font-size: 1rem;
+  }
+}

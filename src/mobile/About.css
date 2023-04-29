@@ -1,0 +1,19 @@
+@media (max-width: 778px) {
+  .img-about-mobile {
+    display: none;
+    width: 0%;
+  }
+
+  .container-infos-mobile {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .container-content-about-mobile {
+    width: 100%;   
+  }
+
+  .content-about-mobile {
+    width: 100%;
+  }
+}

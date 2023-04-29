@@ -1,0 +1,17 @@
+@media (max-width: 778px) {
+  .header-mobile {
+  }
+
+  .nav-mobile {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    gap: 5px;
+  }
+
+  .header-img-mobile {
+    height: 10rem;
+    width: 10rem
+  }
+}
