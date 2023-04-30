@@ -8,15 +8,13 @@ import Tools from "../components/Tools";
 export function Home() {
   return (
     <main>
-      <div className="fixed right-0 bottom-0">
-        <Navigation />
-      </div>
+      <Navigation />
 
       <Header />
 
       <Projects />
       <About />
-      <Tools />     
+      <Tools />
 
       <Footer />
     </main>

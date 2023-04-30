@@ -10,44 +10,37 @@ export default function About() {
         Sobre mim
       </h1>
 
-      <div className="flex items-center justify-evenly">
-        <div className="p-2 w-3/6 flex items-center justify-center img-about-mobile">
-          <img
-            src="https://www.zarla.com/images/zarla-e-1x1-2400x2400-20211115-9hcj89dch4j9hp9tcxh4.png?crop=1:1,smart&width=250&dpr=2"
-            className="border-4 border-parede h-[30rem] rounded-full shadow-lg img-about-mobile"
-          />
-        </div>
+      <div className="flex items-center gap-32 container-info-mobile">
+        <img
+          src="https://i.postimg.cc/3RBNL72B/Whats-App-Image-2023-04-30-at-09-59-48.jpg"
+          className="border-4 border-parede h-[30rem] rounded-full shadow-lg image-about-mobile"
+        />
 
-        <div className="w-3/6  p-2 text-lg flex flex-col gap-8 bg-pele container-infos-mobile">
-          <div className="flex flex-col gap-2">
-            <p className="border-b-2 border-parede w-72 text-porta">
-              Nome: Erick Andrade
-            </p>
-            <p className="border-b-2 border-parede w-72 text-porta ">
-              Email: erick.dev07@gmail.com
-            </p>
-            <p className="border-b-2 border-parede w-72 text-porta">
-              Idade: 21 anos
-            </p>
-            <p className="border-b-2 border-parede w-72 text-porta">
-              Estado: Rio de Janeiro
-            </p>
-          </div>
+        <div className="flex flex-col gap-4 container-about-mobile">
+          <p className="border-b-2 border-parede w-72 text-porta my-info-mobile">
+            Nome: Erick Andrade
+          </p>
+          <p className="border-b-2 border-parede w-72 text-porta my-info-mobile ">
+            Email: erick.dev07@gmail.com
+          </p>
+          <p className="border-b-2 border-parede w-72 text-porta my-info-mobile">
+            Idade: 21 anos
+          </p>
+          <p className="border-b-2 border-parede w-72 text-porta my-info-mobile">
+            Estado: Rio de Janeiro
+          </p>
 
-          <div className="container-content-about-mobile">
-            <p className="text-porta font-semibold content-about-mobile">
-              Profissional de desenvolvimento web com experiência prática na
-              linguagem de programação JavaScript, além de conhecimento em
-              frameworks como React, Node.js e ORM. Tenho realizado projetos de
-              desenvolvimento web de natureza didática para aprimorar minhas
-              habilidades técnicas, incluindo a criação de aplicações web
-              responsivas e interativas. Sou proativo na busca de soluções,
-              organizado na gestão de projetos e focado em resultados. Estou
-              preparado para integrar um time de desenvolvedores e contribuir
-              com minha experiência e habilidades técnicas para o sucesso dos
-              projetos
-            </p>
-          </div>
+          <p className="text-porta font-semibold content-about-mobile mt-5 flex flex-wrap description-mobile">
+            Profissional de desenvolvimento web com experiência prática na
+            linguagem de programação JavaScript, além de conhecimento em
+            frameworks como React, Node.js e ORM. Tenho realizado projetos de
+            desenvolvimento web de natureza didática para aprimorar minhas
+            habilidades técnicas, incluindo a criação de aplicações web
+            responsivas e interativas. Sou proativo na busca de soluções,
+            organizado na gestão de projetos e focado em resultados. Estou
+            preparado para integrar um time de desenvolvedores e contribuir com
+            minha experiência e habilidades técnicas para o sucesso dos projetos
+          </p>
         </div>
       </div>
     </section>

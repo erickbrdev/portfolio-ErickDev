@@ -12,7 +12,7 @@ export default function Tools() {
 
       <div className="flex flex-col gap-10">
         <div className="flex items-center gap-1 border-2 border-parede p-1 tools-mobile">
-          <FaJs size={60} color="#440a0b" />
+          <FaJs size={60} color="#440a0b"/>
           <p className="text-lg font-semibold text-notebook font-tools-mobile">
             JavaScript é uma linguagem de programação usada para criar
             aplicativos interativos e dinâmicos em páginas da web.
@@ -37,7 +37,7 @@ export default function Tools() {
         </div>
 
         <div className="flex items-center gap-2 border-2 border-parede p-1 tools-mobile">
-          <SiMysql size={55} color="#440a0b" />
+          <SiMysql size={60} color="#440a0b" />
           <p className="text-lg font-semibold text-notebook font-tools-mobile">
             MySQL é um sistema de gerenciamento de banco de dados relacional de
             código aberto.

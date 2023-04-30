@@ -1,0 +1,7 @@
+@media (max-width: 778px) {
+  .navigator-mobile {
+    left: 0px;
+    position: fixed;
+    width: 3rem
+  }
+}

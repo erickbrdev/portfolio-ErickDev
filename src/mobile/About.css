@@ -1,19 +1,26 @@
 @media (max-width: 778px) {
-  .img-about-mobile {
+  .container-info-mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .image-about-mobile {
     display: none;
-    width: 0%;
   }
 
-  .container-infos-mobile {
-    width: 100%;
-    max-width: 100%;
+  .container-about-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
   }
 
-  .container-content-about-mobile {
-    width: 100%;   
+  .my-info-mobile {
+    font-size: 1.25rem;
   }
 
-  .content-about-mobile {
-    width: 100%;
+  .description-mobile {
+    font-size: 1.25rem;
   }
 }
