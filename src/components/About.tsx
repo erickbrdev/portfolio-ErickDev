@@ -13,7 +13,7 @@ export default function About() {
       <div className="flex items-center gap-32 container-info-mobile">
         <img
           src="https://i.postimg.cc/3RBNL72B/Whats-App-Image-2023-04-30-at-09-59-48.jpg"
-          className="border-4 border-parede h-[30rem] rounded-full shadow-lg image-about-mobile"
+          className="border-4 border-parede h-[27rem] rounded-xl shadow-lg image-about-mobile"
         />
 
         <div className="flex flex-col gap-4 container-about-mobile">
