@@ -14,16 +14,6 @@ export const projects: IProjects[] = [
   },
   {
     id: uuidv4(),
-    title: "Pokerick",
-    description:
-      "Este é um projeto desenvolvido com React, utilizando o Vite como ferramenta de desenvolvimento e Typescript para tipagem. A aplicação consiste em uma lista de Pokémons, obtida através de uma API externa.",
-    urlProject:
-      "https://poke-api-sable-two.vercel.app/",
-    urlGitHub: "https://github.com/erickbrdev/poke-api",
-    img: "https://i.postimg.cc/T1XfGXsc/Captura-de-tela-de-2023-05-03-10-01-59.png",
-  },
-  {
-    id: uuidv4(),
     title: "Kcire Pets",
     description:
       "Aplicação moderna e responsiva. Desenvolvido com o objetivo de proporcionar uma experiência de usuário intuitiva e agradável, permitindo que os clientes possam navegar facilmente pelos produtos e serviços oferecidos pelo pet shop.",
@@ -31,5 +21,15 @@ export const projects: IProjects[] = [
       "https://petshop-frontend-ml4wc6y77-erickbrdev.vercel.app/",
     urlGitHub: "https://github.com/erickbrdev/petshop-frontend",
     img: "https://i.postimg.cc/qv5qFZ0p/Captura-de-tela-de-2023-05-03-16-52-40.png",
+  },
+  {
+    id: uuidv4(),
+    title: "KF9 Games",
+    description:
+      "A aplicação possui uma lista de jogos e consoles que foram populares nas décadas de 80 e 90, bem como uma breve descrição e algumas informações relevantes sobre cada um deles, tais como lançament, fabricante, entre outros.",
+    urlProject:
+      "https://kf-games.vercel.app/",
+    urlGitHub: "https://github.com/erickbrdev/KF-Games",
+    img: "https://i.postimg.cc/FKhxt2bT/Captura-de-tela-de-2023-05-04-16-29-28.png",
   },
 ];
