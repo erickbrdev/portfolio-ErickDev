@@ -1,6 +1,7 @@
 import Midias from "./Midias";
 
 import "../mobile/Header.css";
+import TypingEffect from "./TextWrite";
 
 export default function Header() {
   return (
@@ -20,27 +21,27 @@ export default function Header() {
             href="#projects"
             className="hover:text-notebook p-2 font-semibold text-2xl  text-parede italic border-b-2  border-porta text-center"
           >
-            Projetos
+          <TypingEffect text="Projetos"/>
           </a>
 
           <a
             href="#about"
             className="hover:text-notebook p-2 font-semibold text-2xl  text-parede italic border-b-2  border-porta text-center"
           >
-            Sobre
+            <TypingEffect text="Sobre"/>
           </a>
 
           <a
             href="#tools"
             className="hover:text-notebook p-2 font-semibold text-2xl  text-parede italic border-b-2  border-porta text-center"
           >
-            Linguagens e Ferramentas
+            <TypingEffect text="Linguagens e Ferramentas"/>
           </a>
           <a
             href="#contact"
             className="hover:text-notebook p-2 font-semibold text-2xl  text-parede italic border-b-2  border-porta text-center"
           >
-            Contatos
+            <TypingEffect text="Contatos"/>
           </a>
           <Midias />
         </div>
