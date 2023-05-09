@@ -1,5 +1,5 @@
 import { FaJs, FaReact, FaNodeJs } from "react-icons/fa";
-import { SiTypescript, SiMysql, SiTailwindcss } from "react-icons/si";
+import { SiTypescript, SiMysql, SiTailwindcss, SiMongodb } from "react-icons/si";
 
 import "../mobile/Tools.css"
 
@@ -41,6 +41,13 @@ export default function Tools() {
           <p className="text-lg font-semibold text-notebook font-tools-mobile">
             MySQL é um sistema de gerenciamento de banco de dados relacional de
             código aberto.
+          </p>
+        </div>
+
+        <div className="flex items-center gap-2 border-2 border-parede p-1 tools-mobile">
+          <SiMongodb size={60} color="#440a0b" />
+          <p className="text-lg font-semibold text-notebook font-tools-mobile">
+          O MongoDB é um banco de dados NoSQL orientado a documentos que armazena dados em documentos JSON, permitindo a inclusão de campos adicionais e escalabilidade horizontal.
           </p>
         </div>
 

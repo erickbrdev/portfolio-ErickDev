@@ -4,7 +4,7 @@ import CardProjects from "./CardProjects";
 export default function ListProducts() {
   return (
     <section className="flex gap-5 items-center justify-center w-full flex-wrap">
-      {projects.map((item) => {
+      {projects.slice(0,3).map((item) => {
         return (
           <CardProjects
             key={item.id}
